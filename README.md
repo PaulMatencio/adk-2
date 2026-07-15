@@ -113,3 +113,5 @@ When a workflow loops over the same node multiple times (e.g. asking for inputs 
   location_state_key = f"location_{ctx.node_path}"
   ```
   This ensures that when the runner replays the session, each execution index only reads and writes state keys scoped to its specific iteration, keeping the execution path perfectly stable.
+
+GIT_SSH_COMMAND="ssh -i ~/.ssh/id_ed25519_personal -o IdentitiesOnly=yes" git push -u origin main --force
