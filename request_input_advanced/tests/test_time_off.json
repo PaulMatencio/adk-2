@@ -1,0 +1,33 @@
+{
+  "events": [
+    {
+      "author": "user",
+      "content": {
+        "role": "user",
+        "parts": [
+          {
+            "text": "I want to take 5 days off for a vacation."
+          }
+        ]
+      }
+    },
+    {
+      "author": "user",
+      "content": {
+        "role": "user",
+        "parts": [
+          {
+            "functionResponse": {
+              "id": "manager_approval",
+              "name": "manager_approval",
+              "response": {
+                "approved": true,
+                "approved_days": 3
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
